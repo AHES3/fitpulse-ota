@@ -3,7 +3,7 @@
   "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-1.9.2.zip",
   "changelog": [
     "Fixed a bug preventing multiple metric logs per day",
-    "Added a global kg/lb weight unit toggle",
+    "Added a global kg/lb weight unit toggles",
     "Smoothed out the animation for quick-log dashboard widgets"
   ]
 }

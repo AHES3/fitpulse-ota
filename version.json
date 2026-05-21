@@ -1,8 +1,9 @@
 {
   "version": "1.9.1",
-  "url": "https://ahes3.github.io/fitpulse-ota/",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-1.9.1.zip",
   "changelog": [
-    "First Over-The-Air Update test!",
-    "Added new dashboard features."
+    "Fixed a bug preventing multiple metric logs per day",
+    "Added a global kg/lb weight unit toggle",
+    "Smoothed out the animation for quick-log dashboard widgets"
   ]
 }

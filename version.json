@@ -1,11 +1,12 @@
 {
-  "version": "2.0.1",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.0.1.zip",
+  "version": "2.0.2",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.0.2.zip",
   "changelog": [
     "Welcome to V2.0.1! 🎉",
     "Added live chart animations",
     "Fixed dashboard widgets",
     "Polished the custom workout UI",
-    "🛠️ Stability fix: Resolved update loop issue"
+    "🛠️ Stability fix: Resolved update loop issue",
+    "Bomba"
   ]
 }

@@ -1,9 +1,15 @@
 {
-  "version": "2.0.3",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.0.3.zip",
+  "version": "2.0.4",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.0.4.zip",
   "changelog": [
+    "Fixed: Single active changelog — removed hardcoded v1.9 duplicate section from What's New",
+    "Fixed: Rest timer auto-starts the moment a set is marked completed in active workout",
+    "Added: Biceps, Triceps, Wrist, and Forearm muscle groups in Muscle Recovery widget for PPL / Upper-Lower splits",
+    "Added: New Accent Color picker in Dashboard Quick Menu — drives dynamic app-wide accent via CSS variable",
+    "Added: react-colorful dependency; --theme-accent CSS custom property set on :root",
+    "Fixed: Existing 'Arms' recovery entries in localStorage backward-compatible on upgrade",
     "Fixed: CapacitorUpdater version/exec guard — no more runtime crash on device",
-    "Fixed: Removed OTA polling loop; plugin runs once per app foreground",
+    "Fixed: OTA polling loop removed; plugin runs once per app foreground",
     "Fixed: downloadProgressModal no longer stuck at 100%",
     "Fixed: Chart timestamp sort — metrics ordered oldest-to-newest reliably",
     "Added: Chart period filter UI (day / week / month / 3 months)",

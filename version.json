@@ -1,10 +1,10 @@
 {
-  "version": "2.1.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.1.0.zip",
+  "version": "2.1.1",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.1.1.zip",
   "changelog": [
-    "Added: Mixed-span drag-and-drop reordering with pointer-based closestCenter/pointerWithin collisions",
-    "Added: Dynamic live sorting feedback during drag onDragOver",
-    "Fixed: Shape distortions and aspect ratio warping by unifying layout structures in DragOverlay",
-    "Added: Smooth cubic-bezier spring easing drop transitions"
+    "Fixed: Visual layout glitches during mixed-span drag-and-drop by disabling incompatible sorting strategy",
+    "Added: Immediate grid reflow during item drag-over for mathematically perfect interactions",
+    "Added: Dynamic version highlight indicator for unread patch notes",
+    "Added: Touch scroll bypass while not actively dragging items"
   ]
 }

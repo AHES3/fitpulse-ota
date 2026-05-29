@@ -1,11 +1,10 @@
 {
-  "version": "2.0.9",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.0.9.zip",
+  "version": "2.1.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.1.0.zip",
   "changelog": [
-    "Fixed: Theme persistence and reflow issue — theme now persists on reload and applies instantly with reflow mechanism",
-    "Fixed: ColorPicker swatch/hex input row alignment — wrapped in flex items-center gap-4 with input flex-1",
-    "Added: Light/Dark/System theme architecture — themeMode state in store with localStorage persistence, useThemeSwitcher hook, and ThemeToggle component",
-    "Fixed: ColorPicker Apply button not closing window — added robust error handling with try/catch blocks and fallbacks to ensure modal always closes",
-    "Fixed: Light mode not switching to white background — corrected theme controller to set --bg-primary, --bg-secondary, --text-primary variables used by index.css"
+    "Added: Mixed-span drag-and-drop reordering with pointer-based closestCenter/pointerWithin collisions",
+    "Added: Dynamic live sorting feedback during drag onDragOver",
+    "Fixed: Shape distortions and aspect ratio warping by unifying layout structures in DragOverlay",
+    "Added: Smooth cubic-bezier spring easing drop transitions"
   ]
 }

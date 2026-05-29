@@ -2,9 +2,10 @@
   "version": "2.1.1",
   "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.1.1.zip",
   "changelog": [
-    "Fixed: Visual layout glitches during mixed-span drag-and-drop by disabling incompatible sorting strategy",
-    "Added: Immediate grid reflow during item drag-over for mathematically perfect interactions",
-    "Added: Dynamic version highlight indicator for unread patch notes",
-    "Added: Touch scroll bypass while not actively dragging items"
+    "Fixed: Out-of-bounds visual bugs by disabling incompatible sorting transforms for mixed-span elements.",
+    "Added: Immediate grid reflow during item drag-overs using mathematically perfect CSS Grid layouts.",
+    "Fixed: Native touch scrolling is no longer hijacked when swiping across the dashboard.",
+    "Fixed: Silent crash in the Update UI that prevented the OTA download modal from appearing.",
+    "Added: Dynamic version highlight indicator for unread patch notes."
   ]
 }

@@ -1,13 +1,12 @@
 {
-  "version": "2.2.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.2.0.zip",
+  "version": "2.2.1",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.2.1.zip",
   "changelog": [
-    "Added: Secure Firebase Authentication for user accounts",
-    "Added: Personalized Dashboard greeting and dynamic user profile management",
-    "Added: Edit Name functionality with secure Firebase profile sync",
-    "Added: Sign-out confirmation modal and custom profile dropdown menu",
-    "Fixed: Visual layout glitches during mixed-span drag-and-drop",
-    "Added: Immediate grid reflow during item drag-over for mathematically perfect interactions",
-    "Added: Touch scroll bypass while not actively dragging items"
+    "Added: Full-screen interactive Exercise Picker with infinite scroll and real-time search",
+    "Added: Smart Media Engine with automatic image fallbacks and lazy loading for offline support",
+    "Added: Active session recovery to seamlessly resume in-progress workouts from the Dashboard",
+    "Added: Cross-platform Notification Service for reliable background rest timers",
+    "Updated: Routine Builder completely overhauled to use the new visual exercise database",
+    "Fixed: Device memory overloading and browser connection limits by implementing chunked data rendering"
   ]
 }

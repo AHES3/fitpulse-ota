@@ -1,12 +1,11 @@
 {
-  "version": "2.2.1",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.2.1.zip",
+  "version": "2.2.2",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.2.2.zip",
   "changelog": [
-    "Added: Full-screen interactive Exercise Picker with infinite scroll and real-time search",
-    "Added: Smart Media Engine with automatic image fallbacks and lazy loading for offline support",
-    "Added: Active session recovery to seamlessly resume in-progress workouts from the Dashboard",
-    "Added: Cross-platform Notification Service for reliable background rest timers",
-    "Updated: Routine Builder completely overhauled to use the new visual exercise database",
-    "Fixed: Device memory overloading and browser connection limits by implementing chunked data rendering"
+    "Fixed: Contribution grid visibility in Light Mode by enforcing explicit high-contrast theme-aware color mapping",
+    "Fixed: Visual rendering conflicts where logged workout dots were incorrectly appearing white on white backgrounds",
+    "Fixed: Removed unreliable CSS variable opacity calculations in favor of static, theme-aware Tailwind utility classes",
+    "Improved: Grid dot rendering stability by transitioning from inline style objects to CSS class-based theme toggling",
+    "Optimized: Removed redundant style props to prevent layout reflows during theme switching"
   ]
 }

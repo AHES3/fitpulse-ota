@@ -1,11 +1,11 @@
 {
-  "version": "2.2.2",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.2.2.zip",
+  "version": "2.2.3",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.2.3.zip",
   "changelog": [
-    "Fixed: Contribution grid visibility in Light Mode by enforcing explicit high-contrast theme-aware color mapping",
-    "Fixed: Visual rendering conflicts where logged workout dots were incorrectly appearing white on white backgrounds",
-    "Fixed: Removed unreliable CSS variable opacity calculations in favor of static, theme-aware Tailwind utility classes",
-    "Improved: Grid dot rendering stability by transitioning from inline style objects to CSS class-based theme toggling",
-    "Optimized: Removed redundant style props to prevent layout reflows during theme switching"
+    "Added: Robust 'Hydration Gate' synchronization system to prevent cloud data overwrites on fresh installs",
+    "Fixed: Sync lifecycle bug where empty local caches could overwrite existing Firebase data during login",
+    "Fixed: TypeScript identifier conflicts in sync services and state management",
+    "Improved: Explicit data pulling from Firestore prior to allowing local state updates",
+    "Optimized: Enhanced console telemetry for sync events to improve future troubleshooting"
   ]
 }

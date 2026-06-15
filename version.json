@@ -1,6 +1,6 @@
 {
-  "version": "2.4.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.4.0.zip",
+  "version": "2.5.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.5.0.zip",
   "changelog": [
     "Added: Native initialization handshake logic for core device notification services on app boot",
     "Added: Dynamic localNotificationReceived listener syncing hardware alerts straight into global state",

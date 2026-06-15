@@ -1,11 +1,9 @@
 {
-  "version": "2.2.3",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.2.3.zip",
+  "version": "2.3.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.3.0.zip",
   "changelog": [
-    "Added: Robust 'Hydration Gate' synchronization system to prevent cloud data overwrites on fresh installs",
-    "Fixed: Sync lifecycle bug where empty local caches could overwrite existing Firebase data during login",
-    "Fixed: TypeScript identifier conflicts in sync services and state management",
-    "Improved: Explicit data pulling from Firestore prior to allowing local state updates",
-    "Optimized: Enhanced console telemetry for sync events to improve future troubleshooting"
+    "Added: Complete layout-accurate inline skeletal loaders across all dashboard tracking modules and custom routines",
+    "Added: Live system-level theme listener enabling smooth theme handshakes with your phone's dark and light settings",
+    "Fixed: Native TypeScript compiler layout mismatches within the historical workout contribution grid map loops"
   ]
 }

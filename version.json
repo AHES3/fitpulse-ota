@@ -1,9 +1,10 @@
 {
-  "version": "2.3.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.3.0.zip",
+  "version": "2.4.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.4.0.zip",
   "changelog": [
-    "Added: Complete layout-accurate inline skeletal loaders across all dashboard tracking modules and custom routines",
-    "Added: Live system-level theme listener enabling smooth theme handshakes with your phone's dark and light settings",
-    "Fixed: Native TypeScript compiler layout mismatches within the historical workout contribution grid map loops"
+    "Added: Native initialization handshake logic for core device notification services on app boot",
+    "Added: Dynamic localNotificationReceived listener syncing hardware alerts straight into global state",
+    "Added: High-importance Android notification channel configuration dedicated to precise workout rest timers",
+    "Added: Neon glow notification alert badge and automatic clear toggle pinned over the home screen header dashboard icons"
   ]
 }

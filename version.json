@@ -1,10 +1,9 @@
 {
-  "version": "2.5.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.5.0.zip",
+  "version": "2.6.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.6.0.zip",
   "changelog": [
-    "Added: Modern persistentLocalCache architecture replacing deprecated Firebase IndexedDB persistence layers",
-    "Added: Flat Firestore data model optimization with automated nested legacy collection hydration",
-    "Added: Ambient background network lifecycle listeners displaying live visual synchronization safety gates",
-    "Fixed: Removed duplicate theme DOM serialization loops reducing runtime rendering layouts"
+    "Added: Optimistic state locking algorithm preventing incoming data loads from overwriting active workout mutations",
+    "Added: Explicit transactional await gates ensuring local cache writes completely commit before app unmount flags",
+    "Fixed: Resolved asynchronous cloud pull race conditions causing edited exercises to roll back on sudden closure"
   ]
 }

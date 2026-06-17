@@ -2,9 +2,9 @@
   "version": "2.5.0",
   "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.5.0.zip",
   "changelog": [
-    "Added: Native initialization handshake logic for core device notification services on app boot",
-    "Added: Dynamic localNotificationReceived listener syncing hardware alerts straight into global state",
-    "Added: High-importance Android notification channel configuration dedicated to precise workout rest timers",
-    "Added: Neon glow notification alert badge and automatic clear toggle pinned over the home screen header dashboard icons"
+    "Added: Modern persistentLocalCache architecture replacing deprecated Firebase IndexedDB persistence layers",
+    "Added: Flat Firestore data model optimization with automated nested legacy collection hydration",
+    "Added: Ambient background network lifecycle listeners displaying live visual synchronization safety gates",
+    "Fixed: Removed duplicate theme DOM serialization loops reducing runtime rendering layouts"
   ]
 }

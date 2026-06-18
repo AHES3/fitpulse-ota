@@ -1,9 +1,7 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.6.1.zip",
   "changelog": [
-    "Added: Optimistic state locking algorithm preventing incoming data loads from overwriting active workout mutations",
-    "Added: Explicit transactional await gates ensuring local cache writes completely commit before app unmount flags",
-    "Fixed: Resolved asynchronous cloud pull race conditions causing edited exercises to roll back on sudden closure"
+    "Fixed: dashboard not loading when offline usage"
   ]
 }

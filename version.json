@@ -1,6 +1,6 @@
 {
   "version": "2.6.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.6.0.zip",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.6.1.zip",
   "changelog": [
     "Added: Optimistic state locking algorithm preventing incoming data loads from overwriting active workout mutations",
     "Added: Explicit transactional await gates ensuring local cache writes completely commit before app unmount flags",

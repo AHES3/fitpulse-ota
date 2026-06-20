@@ -1,9 +1,9 @@
 {
-  "version": "2.6.2",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.6.2.zip",
+  "version": "2.7.3",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.3.zip",
   "changelog": [
-    "Fixed: Implemented True Timestamp Conflict Resolution to prevent cloud payloads from overwriting long offline workout sessions",
-    "Fixed: Removed arbitrary 5-second local age restriction on offline data persistence",
-    "Added: Explicit ISO date comparison handshake ensuring the newest data state strictly wins during network reconnections"
+    "Fixed: Widget Size modal overlapped the bottom navigation — now rendered via portal with higher z-index to prevent overlap (Dashboard)",
+    "Fixed: Offline banner now auto-dismisses after 5 seconds instead of persisting on screen",
+    "Fixed: Patch notes JSX nesting bug that caused older release entries to render outside the scroll container"
   ]
 }

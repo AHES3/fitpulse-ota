@@ -1,6 +1,6 @@
 {
-  "version": "2.7.3",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.3.zip",
+  "version": "2.7.4",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.4.zip",
   "changelog": [
     "Fixed: Widget Size modal overlapped the bottom navigation — now rendered via portal with higher z-index to prevent overlap (Dashboard)",
     "Fixed: Offline banner now auto-dismisses after 5 seconds instead of persisting on screen",

@@ -1,9 +1,10 @@
 {
-  "version": "2.7.4",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.4.zip",
+  "version": "2.7.5",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.5.zip",
   "changelog": [
-    "Fixed: Widget Size modal overlapped the bottom navigation — now rendered via portal with higher z-index to prevent overlap (Dashboard)",
-    "Fixed: Offline banner now auto-dismisses after 5 seconds instead of persisting on screen",
-    "Fixed: Patch notes JSX nesting bug that caused older release entries to render outside the scroll container"
+    "Fixed: Muscle Recovery auto-updates trained muscles upon workout completion by mapping exercises in exercises_db.json",
+    "Fixed: Set Daily Goals modal and other dashboard sheets no longer overlap or get blocked by the bottom navigation bar",
+    "Fixed: Recovery Map layout crash (TypeError in react-body-highlighter component)",
+    "Feature: Warning confirmation alert when starting a new workout while one is active, preventing accidental lost progress"
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "version": "2.7.5",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.5.zip",
+  "version": "2.7.6",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.6.zip",
   "changelog": [
-    "Fixed: Muscle Recovery auto-updates trained muscles upon workout completion by mapping exercises in exercises_db.json",
-    "Fixed: Set Daily Goals modal and other dashboard sheets no longer overlap or get blocked by the bottom navigation bar",
-    "Fixed: Recovery Map layout crash (TypeError in react-body-highlighter component)",
-    "Feature: Warning confirmation alert when starting a new workout while one is active, preventing accidental lost progress"
+    "Fixed: Workout History Widget Overhaul addresses square widget truncation and slim layout collapse.",
+    "Feature: Implemented size-aware layouts: Slim (Last 7 days streak tracker), Square (2-month compact calendar), and Large (3-month full history view).",
+    "Fixed: Corrected trackingType mapping structural bugs between database entities and workout models.",
+    "Fixed: Added missing default timestamp to new BodyMetric history records."
   ]
 }

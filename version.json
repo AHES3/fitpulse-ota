@@ -1,6 +1,6 @@
 {
-  "version": "2.7.6",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.6.zip",
+  "version": "2.7.7",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.7.zip",
   "changelog": [
     "Fixed: Workout History Widget Overhaul addresses square widget truncation and slim layout collapse.",
     "Feature: Implemented size-aware layouts: Slim (Last 7 days streak tracker), Square (2-month compact calendar), and Large (3-month full history view).",

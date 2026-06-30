@@ -1,10 +1,12 @@
 {
-  "version": "2.7.7",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.7.7.zip",
+  "version": "2.8.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.0.zip",
   "changelog": [
-    "Fixed: Workout History Widget Overhaul addresses square widget truncation and slim layout collapse.",
-    "Feature: Implemented size-aware layouts: Slim (Last 7 days streak tracker), Square (2-month compact calendar), and Large (3-month full history view).",
-    "Fixed: Corrected trackingType mapping structural bugs between database entities and workout models.",
-    "Fixed: Added missing default timestamp to new BodyMetric history records."
+    "Fixed: Toast UI – removed backdrop blur and semi-transparent background for solid, consistent toasts across platforms.",
+    "Fixed: History screen month overflow – added max-w-xs truncate to month name to prevent overflow on small screens.",
+    "Feature: Download button per workout – exports workout JSON and associated media with success toast notification.",
+    "Fixed: Data loss on login – delayed local timestamp bump until after hydration and initial sync attempt, preventing false optimistic‑lock skips that caused web app to show empty state after login.",
+    "Fixed: TypeScript safety in ExerciseDetailsModal – added explicit typings to all .map() callbacks and corrected movementPattern comparison with type assertion.",
+    "Fixed: Theme synchronization – themeMode (light/dark/system) now included in cloud sync payload and persisted on receipt, ensuring theme settings persist across devices and survive logout/login cycles."
   ]
 }

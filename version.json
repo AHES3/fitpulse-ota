@@ -1,11 +1,10 @@
 {
-  "version": "2.8.1",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.1.zip",
+  "version": "2.8.2",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.2.zip",
   "changelog": [
-    "Feature: Offline media caching – exercise images and videos now cached via Cache API for offline viewing.",
-    "Feature: Workout download with media – JSZip archives include exercise images and videos alongside workout JSON.",
-    "Fixed: Toast API calls in HistoryScreen – corrected toast.push({message, kind}) usage throughout download flow.",
-    "Fixed: ActiveWorkoutScreen JSX indentation – fixed misaligned cn() args that caused TypeScript parse errors.",
-    "Fixed: Backdrop blur removal – eliminated remaining backdrop-blur-sm across modal overlays for solid backgrounds."
+    "Fixed: Workout download on mobile – added Capacitor Filesystem/Share support so downloads work on iOS and Android.",
+    "Fixed: Exercise reordering on mobile – registered TouchSensor alongside PointerSensor for drag-and-drop on touch devices.",
+    "Feature: Circular download progress indicator – download button now shows an animated SVG progress ring while building the ZIP.",
+    "Fixed: Toast push cleanup – streamlined toast.push({message, kind}) calls in download flow."
   ]
 }

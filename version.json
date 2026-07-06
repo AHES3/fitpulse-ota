@@ -4,6 +4,10 @@
   "changelog": [
     "Fixed: Exercise card animation glitch – extracted SortableExerciseItem to stable module scope so React stops remounting DOM on every render, fixing expand/collapse transition jumping.",
     "Fixed: backButton listener spam – useBackButton now uses useRef to stabilize callback, eliminating 28+ addListener/removeListener cycles per render.",
-    "Fixed: Notification sound 5-second delay – removed sound:'default' from createChannel/schedule calls that mapped to a nonexistent raw resource, letting the native channel use the correct system default sound."
+    "Fixed: Notification sound 5-second delay – removed sound:'default' from createChannel/schedule calls that mapped to a nonexistent raw resource, letting the native channel use the correct system default sound.",
+    "Fixed: Notification channel migration – one-time native plugin call force-deletes and recreates the rest_timers channel on existing installs so the system default sound actually plays.",
+    "Fixed: Drag overlay positioning in Edit Routine – compact pill layout with grip handle icon so dragged item name appears close to the cursor instead of floating above it.",
+    "Fixed: Dashboard patch notes – added v2.8.4 changelog (was stuck showing v2.8.3 as active version).",
+    "Fixed: Download button null-guard – added safety check for missing workout data with visible error toast."
   ]
 }

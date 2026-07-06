@@ -1,10 +1,9 @@
 {
-  "version": "2.8.3",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.3.zip",
+  "version": "2.8.4",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.4.zip",
   "changelog": [
-    "Feature: Google Sign-In – added native Google authentication via Capacitor Social Login on Android and popup-based sign-in on web.",
-    "Feature: Custom notification sound – upload any audio file, auto-trim to 5 seconds, and use it as your rest timer notification sound.",
-    "Feature: Notification volume boost – volume slider (50%–200%) with native alarm-stream routing for louder rest timer alerts.",
-    "Fixed: Firebase authorized-domain error – resolves Google sign-in popup blocked on local network IPs."
+    "Fixed: Exercise card animation glitch – extracted SortableExerciseItem to stable module scope so React stops remounting DOM on every render, fixing expand/collapse transition jumping.",
+    "Fixed: backButton listener spam – useBackButton now uses useRef to stabilize callback, eliminating 28+ addListener/removeListener cycles per render.",
+    "Fixed: Notification sound 5-second delay – removed sound:'default' from createChannel/schedule calls that mapped to a nonexistent raw resource, letting the native channel use the correct system default sound."
   ]
 }

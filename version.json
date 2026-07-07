@@ -1,11 +1,12 @@
 {
-  "version": "2.8.7",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.7.zip",
+  "version": "2.8.8",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.8.zip",
   "changelog": [
-    "New: Routine download now bundles exercise images and videos into the .fitpulsroutine file on Android — uses CapacitorHttp to fetch media from apilyfta.com.",
-    "Fixed: Routine download now saves to app-internal storage (Directory.Data) for reliable write on all Android versions.",
-    "Fixed: Media bundling gracefully handles CORS-limited servers — media that can't be fetched is skipped, routine data is always saved.",
-    "Fixed: Unicode-safe btoa encoding for exercise names with special characters / emoji.",
-    "Fixed: Filename sanitized to alphanumeric-only to prevent Android path validation errors."
+    "New: Exercise images and videos now show in the active workout screen — expanded exercise card displays the media thumbnail.",
+    "New: Download button shows a spinner during save and a checkmark on success.",
+    "Fixed: Sync banner no longer has a blur background backdrop.",
+    "Fixed: Toast notifications redesigned — centered, rounded, cleaner appearance.",
+    "Fixed: Exercise picker now stores image and video references so media works everywhere.",
+    "Fixed: Optimized exercise database lookups (faster workout logging)."
   ]
 }

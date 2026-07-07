@@ -1,15 +1,11 @@
 {
-  "version": "2.8.6",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.6.zip",
+  "version": "2.8.7",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.7.zip",
   "changelog": [
-    "Fixed: Download button removed from History screen, added native save to Routines screen — routines save to Documents folder on Android via Capacitor Filesystem.",
-    "Fixed: Edit routine drag reverted to handle-only — full-item drag broke button clicks, now matches ActiveWorkoutScreen pattern.",
-    "Fixed: Notification channel migration now version-keyed — re-runs on each update, removes Capacitor createChannel interference.",
-    "Fixed: Download button not responding — refactored handler to use workout ID lookup instead of closure-captured object, added explicit error toast.",
-    "Fixed: Drag overlay positioning — compact pill layout with grip icon so the dragged name stays near your finger.",
-    "Fixed: Dashboard patch notes — added v2.8.4 entry.",
-    "Fixed: Exercise card animation glitch — extracted SortableExerciseItem to stable module scope.",
-    "Fixed: Back button listener spam — useRef callback pattern in useBackButton.",
-    "Fixed: Notification sound delay — removed sound:'default' from createChannel."
+    "New: Routine download now bundles exercise images and videos into the .fitpulsroutine file on Android — uses CapacitorHttp to fetch media from apilyfta.com.",
+    "Fixed: Routine download now saves to app-internal storage (Directory.Data) for reliable write on all Android versions.",
+    "Fixed: Media bundling gracefully handles CORS-limited servers — media that can't be fetched is skipped, routine data is always saved.",
+    "Fixed: Unicode-safe btoa encoding for exercise names with special characters / emoji.",
+    "Fixed: Filename sanitized to alphanumeric-only to prevent Android path validation errors."
   ]
 }

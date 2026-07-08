@@ -1,7 +1,9 @@
 {
-  "version": "2.8.9",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.8.9.zip",
+  "version": "2.9.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.9.0.zip",
   "changelog": [
+    "Fixed: Drag and drop no longer jumps to first position when dragging the last exercise — DndContext moved outside scroll container so collision coordinates match correctly.",
+    "Fixed: Drag overlay now visible during drag — switched to high-contrast accent background so it doesn't blend into the dark theme.",
     "Fixed: Videos now play offline after download — race condition resolved between video error and filesystem cache lookup.",
     "New: Download button checks internet connection before downloading — shows Internet required toast when offline.",
     "New: Smart download with change detection — routine already downloaded and unchanged skips re-download, shows success immediately.",

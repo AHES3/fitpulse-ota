@@ -1,10 +1,9 @@
 {
-  "version": "2.10.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.10.0.zip",
+  "version": "2.11.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.11.0.zip",
   "changelog": [
-    "Fixed: Exercise database misinformation — pendulum squat and similar exercises now show correct equipment/category data (Equipment map fixed for 10+ IDs, category now uses exercise_type instead of body_part_id).",
-    "Fixed: Workout days no longer disappear — added beforeunload handler that saves a checkpoint on close/refresh. All localStorage writes wrapped in try/catch to prevent silent data loss.",
-    "New: Quick Add for missing exercises — type any name in the exercise picker to add a name-only exercise on the fly. No more need to close the workout to add custom movements.",
-    "New: Redesigned workout share sheet — Snapchat-style bottom sheet with scrollable content, drag handle, 5 themes (Classic Dark, Dark Crimson, Midnight Blue, Royal Purple, Emerald), and pinned Save/Share buttons."
+    "Fixed: Notification volume slider now actually boosts notification sound volume on Android — PCM audio data is amplified by the volume multiplier when writing the sound file.",
+    "Fixed: Web preview for custom notification sounds now correctly plays audio at boosted volumes (>100%) — HTML audio element volume cap bypassed by amplifying PCM samples before playback.",
+    "Fixed: Notification channel migration version bumped so existing users get a fresh channel recreation on first launch after update."
   ]
 }

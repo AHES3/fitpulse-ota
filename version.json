@@ -1,13 +1,10 @@
 {
-  "version": "2.9.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.9.0.zip",
+  "version": "2.10.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.10.0.zip",
   "changelog": [
-    "Fixed: Drag and drop no longer jumps to first position when dragging the last exercise — DndContext moved outside scroll container so collision coordinates match correctly.",
-    "Fixed: Drag overlay now visible during drag — switched to high-contrast accent background so it doesn't blend into the dark theme.",
-    "Fixed: Videos now play offline after download — race condition resolved between video error and filesystem cache lookup.",
-    "New: Download button checks internet connection before downloading — shows Internet required toast when offline.",
-    "New: Smart download with change detection — routine already downloaded and unchanged skips re-download, shows success immediately.",
-    "New: Share workout expanded to 5 themes — Midnight Blue, Royal Purple, Emerald added to Classic Dark and Dark Crimson.",
-    "Fixed: ExerciseModal correctly shows the exercise video when offline — image was shown instead."
+    "Fixed: Exercise database misinformation — pendulum squat and similar exercises now show correct equipment/category data (Equipment map fixed for 10+ IDs, category now uses exercise_type instead of body_part_id).",
+    "Fixed: Workout days no longer disappear — added beforeunload handler that saves a checkpoint on close/refresh. All localStorage writes wrapped in try/catch to prevent silent data loss.",
+    "New: Quick Add for missing exercises — type any name in the exercise picker to add a name-only exercise on the fly. No more need to close the workout to add custom movements.",
+    "New: Redesigned workout share sheet — Snapchat-style bottom sheet with scrollable content, drag handle, 5 themes (Classic Dark, Dark Crimson, Midnight Blue, Royal Purple, Emerald), and pinned Save/Share buttons."
   ]
 }

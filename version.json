@@ -1,9 +1,10 @@
 {
-  "version": "2.12.0",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.12.0.zip",
+  "version": "2.12.1",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.12.1.zip",
   "changelog": [
-    "Added: App intro slideshow that walks through every screen — Dashboard, Routines, Active Workout, History, Progress, and Notifications. Shows on launch for first-time setup.",
-    "Added: Notification permission prompt in the slideshow — explains why notifications are needed and requests POST_NOTIFICATIONS permission with a single tap.",
-    "Fixed: App now requests notification permissions on app launch instead of relying solely on the native permission flow."
+    "Fixed: Slideshow animations now start instantly — reduced kickoff delays from 600ms to 100ms across all 6 mockups, tightened bar stagger timings for immediate visual feedback on slide entry.",
+    "Fixed: Uniform bar colors in Dashboard and Progress charts — rest day bars no longer use a different gray shade, all bars match for cleaner appearance.",
+    "Fixed: Removed amber peak-day label highlight in Progress chart — all day labels use consistent muted color.",
+    "Changed: Notification slide now shows a large centered bell icon instead of the widget card, permission label removed on web platforms."
   ]
 }

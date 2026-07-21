@@ -1,10 +1,10 @@
 {
-  "version": "2.12.1",
-  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.12.1.zip",
+  "version": "2.13.0",
+  "url": "https://ahes3.github.io/fitpulse-ota/fitpulse-2.13.0.zip",
   "changelog": [
-    "Fixed: Slideshow animations now start instantly — reduced kickoff delays from 600ms to 100ms across all 6 mockups, tightened bar stagger timings for immediate visual feedback on slide entry.",
-    "Fixed: Uniform bar colors in Dashboard and Progress charts — rest day bars no longer use a different gray shade, all bars match for cleaner appearance.",
-    "Fixed: Removed amber peak-day label highlight in Progress chart — all day labels use consistent muted color.",
-    "Changed: Notification slide now shows a large centered bell icon instead of the widget card, permission label removed on web platforms."
+    "New: Weekly calendar split view on RoutinesScreen — see your full week at a glance with Mon-Sun tiles showing each day's scheduled workout.",
+    "New: Redesigned nutrition widget with calorie ring (CircularProgress) alongside compact macro bars and water dot indicators.",
+    "New: Volume widget now shows a trend arrow comparing this week's total volume to last week.",
+    "New: Quick-add presets in nutrition modal — tap Chicken & Rice, Protein Shake, Avocado Toast, or Steak & Veg to fill macros instantly."
   ]
 }
